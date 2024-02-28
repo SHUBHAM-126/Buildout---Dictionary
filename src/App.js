@@ -37,7 +37,7 @@ function App() {
         <button type="submit">Search</button>
       </form>
 
-      <h4>Definition:</h4>
+      <p>Definition:</p>
       {searchResult && <p>{searchResult}</p>}
 
     </div>
